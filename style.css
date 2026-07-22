@@ -21,8 +21,13 @@ ul {
   list-style: none;
 }
 
-section, header, footer {
+/* section, header, footer {
   padding: 24px 16px;
+} */
+.container {
+  max-width: 100%;
+  padding: 24px 16px;
+  margin: 0 auto;
 }
 
 section {
@@ -132,14 +137,11 @@ section {
 
 @media (min-width: 768px) {
 
-  header,
-  main,
-  footer {
+  .container {
     max-width: 720px;
-    margin: 0 auto;
   }
 
-  header{
+  .header__inner {
     display: flex;
     justify-content: space-between; align-items: center;
   }
@@ -172,7 +174,7 @@ section {
     margin-bottom: 0;
   }
 
-  .footer {
+  .footer__inner {
     display: flex;
     justify-content: space-between;
   }
@@ -180,9 +182,7 @@ section {
 }
 
 @media (min-width: 1024px) {
-  header,
-  main,
-  footer {
+  .container {
     max-width: 960px;
   }
 
