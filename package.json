@@ -1,0 +1,15 @@
+{
+  "name": "taskflow-landing",
+  "version": "1.0.0",
+  "description": "Учебный проект. Стек: HTML, CSS, Git.\r Макет: [вставлю ссылку позже]",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
