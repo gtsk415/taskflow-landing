@@ -5,6 +5,11 @@
 
 body {
   min-width: 375px;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background-color: #fff;
 }
 
 body, ul, li, p, h1, h3 {
@@ -14,16 +19,6 @@ body, ul, li, p, h1, h3 {
 
 ul {
   list-style: none;
-}
-
-
-
-body {
-  font-family: system-ui, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #1a1a1a;
-  background-color: #fff;
 }
 
 section, header, footer {
@@ -136,7 +131,10 @@ section {
 }
 
 @media (min-width: 768px) {
-  body {
+
+  header,
+  main,
+  footer {
     max-width: 720px;
     margin: 0 auto;
   }
@@ -179,4 +177,16 @@ section {
     justify-content: space-between;
   }
 
+}
+
+@media (min-width: 1024px) {
+  header,
+  main,
+  footer {
+    max-width: 960px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+  }
 }
