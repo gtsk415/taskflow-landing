@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/board-style.css">
+  <title>TaskFlow Board</title>
+</head>
+<body>
+  <header>
+    <div class="container header__inner">
+      <a href="#" class="hero__logo">taskflow</a>
+      <nav>
+        <ul class="nav__list">
+          <li><a href="#">Возможности</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Начать</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1>TaskFlow Board</h1>
+      <div>
+        <label for="text"></label>
+        <input id="text" type="text" value="">
+        <button class="main__button">Добавить задачу</button>
+      </div>
+      <div class="column__wrapper">
+        <section class="todo__section">
+          <h2>To Do</h2>
+          <ul class="todo__list"></ul>
+        </section>
+        <section class="prorgess__section">
+          <h2>In Progress</h2>
+          <ul></ul>
+        </section>
+        <section class="done__section">
+          <h2>Done</h2>
+          <ul></ul>
+        </section>
+      </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="copyright">© 2026 TaskFlow</div>
+      <nav>
+        <ul class="footer__links">
+          <li><a href="#">Политика конфиденциальности</a></li>
+          <li><a href="#">Условия использования</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="board.js"></script>
+</body>
+</html>

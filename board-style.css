@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  min-width: 375px;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+body, ul, li, p, h1, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 100%;
+  padding: 24px 16px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between; align-items: center;
+}
+
+.hero__logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav__list {
+  display:flex;
+  gap: 16px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav__list a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.main__button {
+ margin-bottom: 16px;;
+}
+
+.column__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 5px;
+}
+
+.todo__section {
+  background: #fa8989;
+}
+
+.prorgess__section {
+  background: #ffee56;
+}
+
+.done__section {
+  background: #92ff7c;
+}
+
+
+
+.footer {
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.footer__links a {
+  color: white;
+  text-decoration: none;
+}
+
