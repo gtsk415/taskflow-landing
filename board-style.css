@@ -21,6 +21,26 @@ ul {
   list-style: none;
 }
 
+input[type="text"] {
+  min-width: 30%;
+  height: 32px;
+  padding: 0 14px;
+  font-family: inherit;
+  font-size: 15px;
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  margin-right: 10px;
+}
+
+input[type="text"]:focus {
+  border-color: #043363;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.15);
+}
+
 .container {
   max-width: 100%;
   padding: 24px 16px;
@@ -50,7 +70,15 @@ ul {
 }
 
 .main__button {
- margin-bottom: 16px;;
+  height: 32px;
+  background-color: #65f791;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #333333;
+  margin-bottom: 16px;
+  text-transform: uppercase;
 }
 
 .column__wrapper {
